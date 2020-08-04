@@ -11,7 +11,7 @@ class App extends Component {
       user: {},
     };
   }
-  componentdidMount() {
+  componentDidMount() {
     this.authListener();
   }
   authListener() {
